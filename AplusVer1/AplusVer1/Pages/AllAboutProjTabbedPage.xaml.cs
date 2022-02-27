@@ -7,24 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AplusVer1
+namespace AplusVer1.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AutorizPage : ContentPage
+	public partial class AllAboutProjTabbedPage : TabbedPage
 	{
-		public AutorizPage()
+		public AllAboutProjTabbedPage()
 		{
 			InitializeComponent();
-		}
-
-		private void btn_Registr_Clicked(object sender, EventArgs e)
-		{
-
-		}
-
-		private void btn_Entery_Clicked(object sender, EventArgs e)
-		{
-
 		}
 	}
 }
