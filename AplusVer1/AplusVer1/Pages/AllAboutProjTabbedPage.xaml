@@ -5,7 +5,7 @@
              x:Class="AplusVer1.Pages.AllAboutProjTabbedPage">
     <TabbedPage.Children>
         <local:ProjInfoPage Title="Описание"/>
-        <local:PicPage Title="Изображения"/>
+        <local:PicPage Title="Картинки"/>
         <local:ContactsPage Title="Контакты"/>
     </TabbedPage.Children>
 </TabbedPage>

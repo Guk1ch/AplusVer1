@@ -9,10 +9,22 @@
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
-            <Entry Placeholder="Логин" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Entry Placeholder="E-mail" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Entry Placeholder="Пароль" IsPassword="True" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Entry Placeholder="Пароль" IsPassword="True" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
+            <StackLayout>
+                <Label Text="E-mail" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Логин" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Пароль" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Пароль" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
             <Button x:Name="Btn_Registration" Text="Зарегистрироваться"  TextColor="White" HorizontalOptions="Center" WidthRequest="350" VerticalOptions="EndAndExpand"
                     Margin="0,0,0,50"/>
         </StackLayout>

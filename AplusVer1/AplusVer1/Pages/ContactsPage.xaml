@@ -5,26 +5,26 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
-                <Label Text="Телефон"/>
-                <Frame BorderColor="Black" Padding="0">
+                <Label Text="Телефон" />
+                <Frame BorderColor="Black" Margin="5">
                     <Entry Keyboard="Telephone"/>
                 </Frame>
             </StackLayout>
-            <StackLayout>
+            <StackLayout >
                 <Label Text="Телефон"/>
-                <Frame BorderColor="Black">
+                <Frame BorderColor="Black" Margin="5">
                     <Entry Keyboard="Telephone"/>
                 </Frame>
             </StackLayout>
             <StackLayout>
                 <Label Text="E-mail"/>
-                <Frame BorderColor="Black">
+                <Frame BorderColor="Black" Margin="5">
                     <Entry Keyboard="Email"/>
                 </Frame>
             </StackLayout>
             <StackLayout>
                 <Label Text="Адрес"/>
-                <Frame BorderColor="Black">
+                <Frame BorderColor="Black" Margin="5">
                     <Entry/>
                 </Frame>
             </StackLayout>
